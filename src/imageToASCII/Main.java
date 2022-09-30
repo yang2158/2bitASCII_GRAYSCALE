@@ -66,6 +66,7 @@ class Main {
 				}
 				out.println(packet);
 			}out.close();
+			System.out.println("SUCCESS! OUTPUTTED TO "+ file.getAbsolutePath() + " IMG :"+selectedImage.getWidth()+ "x"+selectedImage.getHeight() );
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
